@@ -1,0 +1,16 @@
+import { Container, Typography } from '@material-ui/core';
+import React from 'react';
+import useStyles from './styles';
+
+const Profile = () => {
+  const classes = useStyles();
+  return (
+    <Container maxWidth="sm">
+      <Typography variant="h4" component="h2" className={classes.title} color="primary">
+        基本情報
+      </Typography>
+    </Container>
+  )
+}
+
+export default Profile;
