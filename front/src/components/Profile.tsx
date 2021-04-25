@@ -3,6 +3,7 @@ import React from 'react';
 import Address from './Address';
 import Basic from './Basic';
 import Career from './Career';
+import College from './College';
 import useStyles from './styles';
 
 const Profile = () => {
@@ -21,6 +22,10 @@ const Profile = () => {
         職歴
       </Typography>
       <Career />
+      <Typography variant="h4" component="h2" className={classes.title} color="primary">
+        学歴
+      </Typography>
+      <College />
     </Container>
   )
 }

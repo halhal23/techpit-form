@@ -13,5 +13,10 @@ export const PROFILE = {
     COMPANY: '会社名',
     POSITION: '役職',
     SPAN: '期間'
+  },
+  COLLEGE: {
+    NAME: "大学名",
+    POSITION: "学部",
+    DEPARTMENT: "学科",
   }
 };
