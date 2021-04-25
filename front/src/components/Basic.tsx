@@ -6,7 +6,6 @@ import { Profile } from '../domain/entity/profile';
 import { RootState } from '../domain/entity/rootState';
 import { PROFILE } from '../services/profile';
 import profileActions from '../store/profile/actions';
-import Address from './Address';
 import useStyles from './styles';
 
 const Basic = () => {
@@ -30,7 +29,6 @@ const Basic = () => {
         </RadioGroup>
       </FormControl>
       <TextField fullWidth className={classes.formField} label={PROFILE.BIRTHDAY} type="date" value={profile.birthday} onChange={event => handleChange({birthday: event.target.value})} InputLabelProps={{shrink: true}} />
-      <Address />
     </>
   )
 }
