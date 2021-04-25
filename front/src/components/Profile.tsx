@@ -1,5 +1,6 @@
 import { Container, Typography } from '@material-ui/core';
 import React from 'react';
+import Basic from './Basic';
 import useStyles from './styles';
 
 const Profile = () => {
@@ -9,6 +10,7 @@ const Profile = () => {
       <Typography variant="h4" component="h2" className={classes.title} color="primary">
         基本情報
       </Typography>
+      <Basic />
     </Container>
   )
 }
